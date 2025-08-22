@@ -27,7 +27,7 @@ const INSTAMOJO_API_KEY = "d7806d3ca3a048520346e50c8084b1c1"; // 👈 Get from y
 const INSTAMOJO_AUTH_TOKEN = "dd34470449016ed9041fe7cc1a62fbfb"; // 👈 Get from your Instamojo Dashboard
 const INSTAMOJO_SALT = "b182c90a621f41848f7cf23758408cee"; // 👈 Get from your Instamojo Dashboard
 const INSTAMOJO_API_URL = "https://www.instamojo.com/api/1.1/payment-requests/";
-const YOUR_BACKEND_URL = "http://localhost:5000"; // Your live Render URL
+const YOUR_BACKEND_URL = "https://socialrocket-smm-panel-2.onrender.com/"; // Your live Render URL
 
 app.post("/api/instamojo-webhook", async (req, res) => {
   const data = req.body;
